@@ -6,4 +6,4 @@ RUN mkdir /opt/tomcat
 WORKDIR /opt/tomcat
 RUN wget http://dlcdn.apache.org/tomcat/tomcat-9/v9.0.71/bin/apache-tomcat-9.0.71.tar.gz
 RUN tar -zxvf apache-tomcat-9.0.71.tar.gz
-cMD ["/opt/tomcat/apache-tomcat-9.0.71/bin/catalina.sh","run"]
+CMD ["/opt/tomcat/apache-tomcat-9.0.71/bin/catalina.sh","run"]
