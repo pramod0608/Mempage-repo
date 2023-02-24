@@ -1,4 +1,4 @@
 FROM ubuntu
 USER root
-MAINTAINER MEMPAGE-TECHNOLOGY
+MAINTAINER jayadeep
 RUN apt-get update -y
