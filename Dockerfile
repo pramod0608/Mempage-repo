@@ -1,3 +1,3 @@
-FROM jayadeep3/image420
+FROM ubuntu
 MAINTAINER MEMPAGE-TECHNOLOGY
 RUN apt-get update -y
