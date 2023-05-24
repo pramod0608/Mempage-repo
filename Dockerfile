@@ -1,7 +1,7 @@
 FROM ubuntu:latest
-LABEL maintainer="myname@somecompany.com"
+LABEL maintainer="pramod0608"
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install nginx -y
+RUN apt-get install python -y
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["python", "-g", "daemon off;"]
 
