@@ -1,7 +1,5 @@
-FROM ubuntu:latest
-LABEL maintainer="pramod0608"
-RUN apt-get update && apt-get upgrade -y
-RUN apt-get install python -y
+FROM nginx
+USER root
+MAINTAINER pramod
 EXPOSE 80
-CMD ["python", "-g", "daemon off;"]
-
+CMD ["nginx", "-g", "daemon off;"]
